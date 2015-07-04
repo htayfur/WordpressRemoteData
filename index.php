@@ -19,7 +19,7 @@ $getpassword = $_POST['password'];
 
 if($password == $getpassword){
 
-    $getdata = $_POST['data'];
+    $getdata = stripslashes($_POST['data']);
     $getdata = json_decode($getdata, true);
 
     $title = $getdata['title'];
