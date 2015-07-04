@@ -15,10 +15,13 @@ require_once "../../../wp-load.php";
 
 $password = "Sifre"; // change password value // şifreyi değiştirin
 
-$getdata = $_POST['data'];
 $getpassword = $_POST['password'];
 
 if($password == $getpassword){
+
+    $getdata = $_POST['data'];
+    $getdata = json_decode($getdata, true);
+
     $title = $getdata['title'];
     $keywords = $getdata['keywords'];
     $content = $getdata['content'];
