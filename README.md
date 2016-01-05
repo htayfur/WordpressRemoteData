@@ -12,5 +12,5 @@ Source code to send the data: [Wordpress Remote Data Sender](https://github.com/
 # License
 Please see [License](https://github.com/kobrafightertr/WordpressRemoteData/blob/master/LICENSE).
 
-Bu proje **[Kodbara](http://kodbara.com)** tarafından halka açık olarak geliştirilmiştir.
+Bu proje **[Hakan Tayfur](http://htayfur.com)** tarafından halka açık olarak geliştirilmiştir.
 
